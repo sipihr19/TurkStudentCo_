@@ -1,9 +1,16 @@
-- TurkStudentCo SQL Bootcamp -
+# 🚀 TurkStudentCo SQL BOOTCAMP
 
-Bu repository, TurkStudentCo tarafından düzenlenen "SQL Bootcamp" eğitimi kapsamında oluşturulmuştur. Bu proje, etkinlik süresince öğrendiğim konuları ve verilen ödevleri içermektedir.
+Bu repository, **TurkStudentCo** tarafından düzenlenen **"SQL Bootcamp"** eğitimi kapsamında oluşturulmuştur. 📚  
+Bu proje, etkinlik süresince öğrendiğim konuları ve verilen ödevleri içermektedir. ✍️  
 
-İçerik
+## 📌 İÇERİK
 
-1. Ödev: Temel SQL komutlarını öğrenmeye yöneliktir. (Select, Where, Order By, Distinct, Concat)
+✅ **1. Ödev**: Temel SQL komutlarını öğrenmeye yöneliktir.  
+   - `SELECT`, `WHERE`, `ORDER BY`, `DISTINCT`, `CONCAT`
 
-2. Ödev: Fonksiyonları ve Null kavramını içermektedir. (Is Null, Aritmetik işlemler, Alias kullanımı; Substring, Concat, Length, To_Char gibi fonksiyonların uygulaması ve son olrak Date türü ile ilgili işlemler)  
+✅ **2. Ödev**: Fonksiyonları içermektedir.  
+   - `IS NULL`
+   - Aritmetik işlemler
+   - **Alias kullanımı**  
+   - `SUBSTRING`, `CONCAT`, `LENGTH`, `TO_CHAR` gibi fonksiyonların kullanımı  
+   - **Date türü ile ilgili işlemler** 📅  
