@@ -29,7 +29,7 @@ Bu proje, etkinlik süresince öğrendiğim konuları ve verilen ödevleri içer
    SELECT 
      CONCAT(
        SUBSTRING(billing_address, 1, 3),
-       SUBSTRING(billing_address, LENGTH(billing_address)-3, 4)
+       SUBSTRING(billing_address, LEN(billing_address)-3, 4)
      ) AS acik_adres,
      invoice_date
   FROM invoice
