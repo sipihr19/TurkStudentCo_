@@ -26,11 +26,16 @@ Bu proje, etkinlik süresince öğrendiğim konuları ve verilen ödevleri içer
  
    📊 **Örnek SQL Sorgusu**  
    ```sql
-   SELECT
-      total,
-      2 * total AS new_total
-   FROM invoice
-   ORDER BY new_total DESC;
+   SELECT 
+     CONCAT(
+       SUBSTRING(billing_address, 1, 3),
+       SUBSTRING(billing_address, LENGTH(billing_address)-3, 4)
+     ) AS acik_adres,
+     invoice_date
+  FROM invoice
+  WHERE 
+     TO_CHAR(invoice_date, 'YYYY') = '2013'
+     AND TO_CHAR(invoice_date, 'MM') = '08';
    ```
 
 ✅ **3. Ödev**: `JOIN` kavramının detaylı kullanımını içermektedir.  
