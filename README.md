@@ -36,7 +36,7 @@ Bu proje, etkinlik süresince öğrendiğim konuları ve verilen ödevleri içer
 ✅ **3. Ödev**: `JOIN` kavramının detaylı kullanımını içermektedir.  
    - Gerçek hayatta kullanılan `JOIN` senaryoları
    - Birden fazla tabloyla etkin çalışma teknikleri
-   - `INNER JOIN`, `TO_CHAR`, `COUNT`
+   - `INNER JOIN`, `TO_CHAR`, `SUM`
 
    📊 **Örnek SQL Sorgusu**  
    ```sql
