@@ -1,4 +1,4 @@
-# 🚀 TurkStudentCo SQL BOOTCAMP 🚀
+# 🚀 TurkStudentCo SQL BOOTCAMP 
 
 Bu repository, **TurkStudentCo** tarafından düzenlenen **"SQL Bootcamp"** eğitimi kapsamında oluşturulmuştur. 📚  
 Bu proje, etkinlik süresince öğrendiğim konuları ve verilen ödevleri içermektedir. ✍️  
@@ -10,8 +10,12 @@ Bu proje, etkinlik süresince öğrendiğim konuları ve verilen ödevleri içer
 
    📊 **Örnek SQL Sorgusu**  
    ```sql
-   
-
+   SELECT
+      FirstName,
+      LastName,
+      Salary
+   FROM employees;
+   ```
 
 ✅ **2. Ödev**: Fonksiyonları içermektedir.  
    - `IS NULL`
@@ -22,3 +26,24 @@ Bu proje, etkinlik süresince öğrendiğim konuları ve verilen ödevleri içer
  
    📊 **Örnek SQL Sorgusu**  
    ```sql
+   SELECT
+      total,
+      2 * total AS new_total
+   FROM invoice
+   ORDER BY new_total DESC;
+   ```
+
+✅ **3. Ödev**: `JOIN` kavramının detaylı kullanımını içermektedir.  
+   - Gerçek hayatta kullanılan `JOIN` senaryoları
+   - Birden fazla tabloyla etkin çalışma teknikleri
+   - `INNER JOIN`, `TO_CHAR`, `COUNT`
+
+   📊 **Örnek SQL Sorgusu**  
+   ```sql
+   SELECT *
+   FROM track t
+   JOIN playlisttrack pt ON pt.track_id = t.track_id
+   JOIN playlist p ON p.playlist_id = pt.playlist_id;
+   ```
+  
+   
