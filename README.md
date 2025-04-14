@@ -1,7 +1,7 @@
 # 🚀 TurkStudentCo SQL BOOTCAMP 
 
 Bu repository, **TurkStudentCo** tarafından düzenlenen **"SQL Bootcamp"** eğitimi kapsamında oluşturulmuştur. 📚  
-Bu proje, etkinlik süresince öğrendiğim konuları ve verilen ödevleri içermektedir. ✍️  
+Bu repo, etkinlik süresince öğrendiğim konuları ve verilen ödevleri içermektedir. ✍️  
 
 ## 📌 İÇERİK
 
